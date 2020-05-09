@@ -1,0 +1,305 @@
+{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    font: inherit;
+}
+
+body{
+    font-family: 'Gill Sans';
+    list-style: none;  
+}
+
+a{
+    text-decoration: none;
+    color: #E98F23;
+    font-size: 24px;
+    text-transform: capitalize;
+    line-height: 1.6;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1235px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h2{
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: -45px;
+}
+
+.menu{
+
+}
+
+
+.listing {
+    display: flex;
+}
+
+.listing ul{
+    list-style: none;
+    display: flex;
+}
+
+.listing ul li{
+    padding-right: 15px;
+    font-size: 24px;
+    color: #757575;
+    text-transform: capitalize;
+}
+
+button {
+    width: 118px;
+    height: 50px;
+    color: #757575;
+    border-radius: 50px;
+    font-size: 24px;
+    margin-top: 4px;
+}
+
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-section-one{
+    width: 33%;
+
+}
+
+.banner-section-one h1{
+    text-transform: capitalize;
+    font-size: 48px;
+
+}
+
+.banner-section-one p{
+    color: #757575;
+    line-height: 1.6;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.banner-section-two {
+    margin-top: 15px;
+    margin-bottom: -9px;
+}
+
+.banner-section-one button{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    background-color: #E98F23;  
+}
+
+.destination-section-one{
+    background-image: url('../images/Bitmap.png');
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+
+input {
+    margin-top: 100px;
+    width: 46%;
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 25px;
+    opacity: 0.6;
+    background-color: #003D47;
+    font-size: 40px;
+    border: 1px solid #003d47;
+    margin-bottom: 60px;
+}
+
+.search-area-two {
+
+}
+
+.search-area-two ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.search-area-two ul li{
+    padding: 35px 45px;
+    background-color: #979797;
+    opacity: 0.6;
+    color: white;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.search-area-final-section{
+    display: flex;
+    justify-content: center;
+}
+
+.search-area-final-section h3{
+    margin-right: 35px; margin-left: 25px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+
+.super-offer-section{
+
+}
+
+
+.super-offer-section h4 {
+    font-size: 48px;
+    text-transform: capitalize;
+}
+
+.offer-area-section{
+
+}
+
+.image-section{
+    display: flex;
+}
+
+.image-area{
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.brief-area{
+    width: 100%;
+}
+
+.brief-area h2{
+    font-size: 36px;
+    line-height: 1.6;
+}
+
+.brief-area p{
+    font-size: 24px;
+    line-height: 1.6;
+    color: #979797;
+}
+
+.terms {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.terms h5 {
+    color: #E98F23;
+    font-size: 24px; 
+    font-weight: 500;
+}
+
+.travel-area-section{
+    background-color: #F5F5F5;
+    padding-top: 1px;
+}
+
+.travel-area-section h2{
+    font-size: 48px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.travel-blog-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.travel-blog-section img{
+    width: 100%;
+}
+
+.image-and-text-area{
+    flex-basis: 32.33%;
+    box-shadow: 0px 5px 15px 1px rgb(198, 202, 200);
+}
+
+
+.text-area-section{ 
+
+}
+.text-area-section p{
+    font-size: 24px;
+    text-align: center;
+    font-family: gill sans-serif;
+}
+
+
+.link-area {
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main-footer-area{
+    background-color: #003D47;
+    padding-top: 50px;
+    padding-bottom: 50px;   
+}
+
+.footer-area-section{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.footer-area{
+
+}
+
+.footer-area-one h2 {
+    font-size: 30px;
+    font-family: gill sans-serif;
+    color: white;
+}
+
+
+.footer-area-two{
+    margin-right: 20px;
+}
+
+.footer-area-two p{
+    font-size: 18px;
+    color: white;
+    font-family: 'Gill Sans';
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h3{
+    color: white;
+    font-size: 24px;
+    font-family: gill sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+}
