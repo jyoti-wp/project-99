@@ -8,7 +8,13 @@
 
 body{
     font-family: 'Gill Sans';
-    list-style: none;  
+    list-style: none;
+	overflow-x: hidden;
+}
+
+button:focus,
+input {
+	outline: none;
 }
 
 a{
@@ -37,8 +43,7 @@ a{
 .logo h2{
     font-size: 36px;
     font-weight: bold;
-    margin-left: 80px;
-    margin-top: -45px;
+	display: inline-block;
 }
 
 .menu{
@@ -53,6 +58,7 @@ a{
 .listing ul{
     list-style: none;
     display: flex;
+	align-items: center;
 }
 
 .listing ul li{
@@ -62,6 +68,10 @@ a{
     text-transform: capitalize;
 }
 
+.menu-button {
+	display: none;
+}
+
 button {
     width: 118px;
     height: 50px;
@@ -69,6 +79,7 @@ button {
     border-radius: 50px;
     font-size: 24px;
     margin-top: 4px;
+	cursor: pointer;
 }
 
 .banner-section {
@@ -105,7 +116,7 @@ button {
     height: 50px;
     font-size: 18px;
     color: white;
-    background-color: #E98F23;  
+    background-color: #E98F23;
 }
 
 .destination-section-one{
@@ -208,7 +219,7 @@ input {
 
 .terms h5 {
     color: #E98F23;
-    font-size: 24px; 
+    font-size: 24px;
     font-weight: 500;
 }
 
@@ -239,7 +250,7 @@ input {
 }
 
 
-.text-area-section{ 
+.text-area-section{
 
 }
 .text-area-section p{
@@ -259,7 +270,7 @@ input {
 .main-footer-area{
     background-color: #003D47;
     padding-top: 50px;
-    padding-bottom: 50px;   
+    padding-bottom: 50px;
 }
 
 .footer-area-section{
@@ -302,4 +313,97 @@ input {
     font-family: gill sans-serif;
     line-height: 1.6;
     font-weight: 400;
+}
+
+/* Imran */
+@media only screen and ( max-width: 600px ){
+
+	/* header */
+	.header-container {
+		position: relative;
+	}
+
+	.listing {
+		border: 1px solid #ccc;
+	}
+
+	.listing li {
+		border-bottom: 1px solid #ccc;
+		padding: 18px 16px;
+	}
+
+	.listing ul{
+		flex-direction: column;
+		width: 100%;
+		margin-left: 0;
+		padding-left: 0;
+		align-items: inherit;
+	}
+
+	.menu {
+		position: absolute;
+		top: 81px;
+		right: -100vh;
+		background-color: white;
+		width: 100%;
+		transition: 0.3s all;
+	}
+
+	.menu-button {
+		display: inline-block;
+	}
+
+	.menu.show-menu {
+		right: 0;
+	}
+
+	/* Banner */
+	.banner-section {
+		flex-direction: column;
+	}
+
+	.banner-section-one {
+		width: 100%;
+	}
+
+	.banner-section-two img {
+		width: 100%;
+	}
+
+	/*	Categories */
+	.search-area-two ul li {
+		padding: 16px 24px;
+	}
+
+	.search-area-one input {
+		font-size: 18px;
+	}
+
+	.search-area-final-section h3 {
+		font-size: 24px;
+	}
+
+	/*	Blog */
+	.image-section {
+		flex-direction: column;
+	}
+
+	.image-area img {
+		width: 100%;
+	}
+
+	.image-area {
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+
+	/*	Travel blog section */
+	.travel-blog-section {
+		flex-direction: column;
+	}
+
+	/*	Footer  */
+	.footer-area-section {
+		flex-direction: column;
+	}
 }
