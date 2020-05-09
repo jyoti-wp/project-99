@@ -405,5 +405,9 @@ input {
 	/*	Footer  */
 	.footer-area-section {
 		flex-direction: column;
-	}
+    }
+    
+    html {
+        overflow-x: hidden;
+    }
 }
