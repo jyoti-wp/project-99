@@ -110,6 +110,10 @@ button {
     margin-bottom: -9px;
 }
 
+.banner-section-two img {
+	width: 100%;
+}
+
 .banner-section-one button{
     text-align: center;
     width: 200px;
@@ -141,8 +145,8 @@ input {
     margin-bottom: 60px;
 }
 
-.search-area-two {
-
+.search-area-two li i{
+	font-size: 40px;
 }
 
 .search-area-two ul {
@@ -272,6 +276,10 @@ input {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.footer {
+	display: flex;
+	align-items: center;
+}
 
 .footer-area-section{
     display: flex;
@@ -315,7 +323,7 @@ input {
     font-weight: 400;
 }
 
-/* Imran */
+/* Mobile */
 @media only screen and ( max-width: 600px ){
 
 	/* header */
@@ -357,26 +365,13 @@ input {
 		right: 0;
 	}
 
-	/* Banner */
-	.banner-section {
-		flex-direction: column;
-	}
-
-	.banner-section-one {
-		width: 100%;
-	}
-
-	.banner-section-two img {
-		width: 100%;
-	}
-
 	/*	Categories */
 	.search-area-two ul li {
 		padding: 16px 24px;
 	}
 
-	.search-area-one input {
-		font-size: 18px;
+	.search-area-two li i{
+		font-size: 24px;
 	}
 
 	.search-area-final-section h3 {
@@ -406,4 +401,33 @@ input {
 	.footer-area-section {
 		flex-direction: column;
 	}
+}
+
+/* Tablet */
+@media only screen and ( max-width: 768px ){
+	/* Banner */
+	.banner-section {
+		flex-direction: column-reverse;
+	}
+
+	.banner-section-one {
+		width: 100%;
+	}
+
+	.banner-section-two img {
+		width: 100%;
+	}
+
+	.search-area-one input {
+		font-size: 18px;
+	}
+
+	.main-footer-area,
+	.super-offer-section,
+	.destination-section-one,
+	.banner-container {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
 }
