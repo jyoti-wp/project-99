@@ -17,7 +17,7 @@ input {
 	outline: none;
 }
 
-a{
+.link-area a{
     text-decoration: none;
     color: #E98F23;
     font-size: 24px;
@@ -323,6 +323,17 @@ input {
     font-weight: 400;
 }
 
+.icons ul {
+    display: flex;
+    list-style: none;
+}
+
+.icons a {
+    padding-right: 15px;
+    color: white;
+    font-size: 24px;
+}
+
 /* Mobile */
 @media only screen and ( max-width: 600px ){
 
@@ -368,15 +379,24 @@ input {
 	/*	Categories */
 	.search-area-two ul li {
 		padding: 16px 24px;
-	}
+    }
+
+    .search-area-one input{
+        font-size: 18px;
+    }
 
 	.search-area-two li i{
 		font-size: 24px;
 	}
 
 	.search-area-final-section h3 {
-		font-size: 24px;
-	}
+        font-size: 20px;
+        margin-right: 1px;
+    }
+    
+    .super-offer-section h4{
+        font-size: 32px;
+    }
 
 	/*	Blog */
 	.image-section {
@@ -390,12 +410,16 @@ input {
 	.image-area {
 		margin-right: 0;
 		margin-bottom: 0;
-	}
+    }
+    
+
 
 	/*	Travel blog section */
 	.travel-blog-section {
 		flex-direction: column;
-	}
+    }
+    
+
 
 	/*	Footer  */
 	.footer-area-section {
@@ -405,11 +429,24 @@ input {
     html {
         overflow-x: hidden;
     }
+
+
+    .footer h3 {
+        font-size: 15px;
+    }
+
+    .icons a {
+        padding-right: 8px;
+    }
 }
+
+
 
 /* Tablet */
 @media only screen and ( max-width: 768px ){
-	/* Banner */
+    
+    
+    /* Banner */
 	.banner-section {
 		flex-direction: column-reverse;
 	}
@@ -423,7 +460,7 @@ input {
 	}
 
 	.search-area-one input {
-		font-size: 18px;
+		font-size: 20px;
 	}
 
 	.main-footer-area,
@@ -433,5 +470,60 @@ input {
 		padding-left: 16px;
 		padding-right: 16px;
 	}
+
+    .banner-section-one p {
+        font-size: 18px;
+    }
+
+    .banner-section-one h1{
+        font-size: 36px;
+    }
+
+
+
+
+    /* travel blog section */
+
+    .travel-area-section h2 {
+        font-size: 36px;
+    }
+
+    .text-area-section p {
+        font-size: 20px;
+    }
+
+    .travel-blog-section {
+        padding: 0px 10px 0px 10px;
+    }
+
+
+
+    .destination-section-one {
+        margin-top: 15px;
+    }
+
+    .super-offer-section h4 {
+        font-size: 36px;
+    }
+
+    /* brief area section */
+
+
+
+    .brief-area h2{
+    font-size: 26px;
+    }
+    
+    .brief-area p {
+    font-size: 20px;
+    }
+    
+    .terms h5 {
+    font-size: 20px;
+    }
+
+
+    /* footer area */
+
 
 }
