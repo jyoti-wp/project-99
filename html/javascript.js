@@ -10,3 +10,43 @@ element.addEventListener( 'click', () => {
 	}
 
 } );
+
+class Modal {
+	constructor( ) {
+		this.joinButton = document.getElementById('join-button');
+		this.form = document.getElementById( 'form');
+		this.joinButton.addEventListener( 'click', () => {
+
+		if ( this.form.classList.contains( 'show' ))	{
+			this.form.classList.remove( 'show' );
+		} else {
+			this.form.classList.add( 'show' );	
+		}
+			console.log( 'hello' );
+		} );
+
+		this.closedForm();
+
+	}
+	closedForm( ) {
+		this.closeButton = document.getElementById( 'close-button' );
+		this.closeButton.addEventListener( "click", () => {
+			if ( this.form.classList.contains( 'show' ))	{
+				this.form.classList.remove( 'show' );
+			} else {
+				this.form.classList.add( 'show' );	
+			}
+
+		})
+		console.log(this.closeButton);
+
+		
+	}
+
+}
+
+var modal = new Modal( );
+console.log(modal);
+
+
+
