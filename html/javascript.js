@@ -22,7 +22,7 @@ class Modal {
 		} else {
 			this.form.classList.add( 'show' );	
 		}
-			console.log( 'hello' );
+
 		} );
 
 		this.closedForm();
@@ -38,7 +38,7 @@ class Modal {
 			}
 
 		})
-		console.log(this.closeButton);
+
 
 		
 	}
@@ -46,7 +46,7 @@ class Modal {
 }
 
 var modal = new Modal( );
-console.log(modal);
+
 
 
 
